@@ -29,6 +29,10 @@ public class TestNGClass {
 //	@BeforeSuite
 //	public void beforeSuite() {
 //		System.out.println("Before Class");
+// 		
+// 	        System.out.println("Before Class");
+// 		System.out.println("Before Class");
+// 		System.out.println("Before Class");
 //	}
 //	
 //	@BeforeTest
