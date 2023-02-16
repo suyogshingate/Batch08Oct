@@ -39,15 +39,7 @@ public class TestNGClass {
 //		System.out.println("Before Class");
 //	}
 	
-	@BeforeClass
-	public void openBrowser() {
-		System.out.println("Before Class");
-		System.setProperty("webdriver.chrome.driver", "E:\\SELENIUM\\chromedriver_win32 (3)\\chromedriver.exe");
-		driverT = new ChromeDriver();
-		driverT.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driverT.manage().window().maximize();
-		
-	}
+
 	
 	@BeforeMethod 
 	public void openHomeOrMainPage() throws InterruptedException {
